@@ -1,0 +1,25 @@
+@import "~normalize.css";
+
+body {
+  background-color: white;
+}
+%sm-pad {
+  padding: 12px;
+}
+.gap-bottom {
+  margin-bottom: 30px;
+}
+.list {
+  width: 95%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+.list-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  @extend %sm-pad;
+}
+.item-cover {
+  display: inline-block;
+  width: 320px;
+}
