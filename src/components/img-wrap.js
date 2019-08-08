@@ -9,16 +9,26 @@ export default class ImgWrap extends Component {
         width: "100%",
         height: 0,
         paddingTop: `${this.props.ratio * 100}%`,
-        backgroundImage: `url(${this.props.src})`,
         backgroundColor: "#ddd",
         backgroundSize: "cover"
       }
     };
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    this.loadImage(this.props.src);
+  }
   componentWillUnmount() {}
-  handleChange() {}
+  loadImage = imageName => {
+    import(`../images/${imageName}`).then(image => {
+      console.log(image.default)
+      this.setState({
+        styleObj: Object.assign({}, this.state.styleObj, {
+          backgroundImage: `url(${image.default})`
+        })
+      });
+    });
+  };
 
   render() {
     return <div className="img-wrap" style={this.state.styleObj} />;

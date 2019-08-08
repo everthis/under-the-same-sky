@@ -15,8 +15,8 @@ export default class List extends Component {
   render() {
     return (
       <div className="list">
-        {this.state.listData.map(el => {
-          return <ListItem data={el} />;
+        {this.state.listData.map((el, idx) => {
+          return <ListItem data={el} key={idx} />;
         })}
       </div>
     );
