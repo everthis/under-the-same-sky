@@ -9,23 +9,33 @@ body {
   font-size: 14px;
   font-family: "PingFang SC", Arial, Helvetica, sans-serif;
   color: #333;
+  background-image: linear-gradient(to bottom right, #ff9eaa 0% 65%, #e860ff 95% 100%);
+  background-position: center;
+  background-attachment: fixed;
 }
 %sm-pad {
   padding: 12px;
 }
 .gap-bottom {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .list {
   width: 95%;
-  max-width: 360px;
+  max-width: 365px;
   margin: 0 auto;
+}
+.c-center {
+  text-align: center;
 }
 .list-item {
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  @extend %sm-pad;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
+}
+.card-bottom {
+  padding: 20px;
 }
 .item-cover {
   display: inline-block;

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d77aebaa1ae6441da781abc59c3dc2c",
+    "revision": "4eac9d4d057261dc3098fc39f204fc60",
     "url": "/under-the-same-sky/index.html"
   },
   {
-    "revision": "24bc01beca89888da369",
-    "url": "/under-the-same-sky/static/css/main.f47a5fae.chunk.css"
+    "revision": "569f8cf5de23727587e7",
+    "url": "/under-the-same-sky/static/css/main.9e52f56f.chunk.css"
   },
   {
     "revision": "1d87092cd316e5278ccf",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/under-the-same-sky/static/js/5.cebaec21.chunk.js"
   },
   {
-    "revision": "24bc01beca89888da369",
-    "url": "/under-the-same-sky/static/js/main.4c77a557.chunk.js"
+    "revision": "569f8cf5de23727587e7",
+    "url": "/under-the-same-sky/static/js/main.d435c4eb.chunk.js"
   },
   {
     "revision": "6ac52202abc721d4560f",

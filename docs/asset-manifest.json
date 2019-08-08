@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/under-the-same-sky/static/css/main.f47a5fae.chunk.css",
-    "main.js": "/under-the-same-sky/static/js/main.4c77a557.chunk.js",
-    "main.js.map": "/under-the-same-sky/static/js/main.4c77a557.chunk.js.map",
+    "main.css": "/under-the-same-sky/static/css/main.9e52f56f.chunk.css",
+    "main.js": "/under-the-same-sky/static/js/main.d435c4eb.chunk.js",
+    "main.js.map": "/under-the-same-sky/static/js/main.d435c4eb.chunk.js.map",
     "runtime~main.js": "/under-the-same-sky/static/js/runtime~main.dc48e0e0.js",
     "runtime~main.js.map": "/under-the-same-sky/static/js/runtime~main.dc48e0e0.js.map",
     "static/js/2.898ed3d6.chunk.js": "/under-the-same-sky/static/js/2.898ed3d6.chunk.js",
@@ -14,9 +14,9 @@
     "static/js/5.cebaec21.chunk.js": "/under-the-same-sky/static/js/5.cebaec21.chunk.js",
     "static/js/5.cebaec21.chunk.js.map": "/under-the-same-sky/static/js/5.cebaec21.chunk.js.map",
     "index.html": "/under-the-same-sky/index.html",
-    "precache-manifest.bd1e6c61fbb894da8dff5c57d682bff5.js": "/under-the-same-sky/precache-manifest.bd1e6c61fbb894da8dff5c57d682bff5.js",
+    "precache-manifest.a9b20c6e3b9b989515d65b1e1f562d15.js": "/under-the-same-sky/precache-manifest.a9b20c6e3b9b989515d65b1e1f562d15.js",
     "service-worker.js": "/under-the-same-sky/service-worker.js",
-    "static/css/main.f47a5fae.chunk.css.map": "/under-the-same-sky/static/css/main.f47a5fae.chunk.css.map",
+    "static/css/main.9e52f56f.chunk.css.map": "/under-the-same-sky/static/css/main.9e52f56f.chunk.css.map",
     "static/media/cover2.jpg": "/under-the-same-sky/static/media/cover2.bde0bbd8.jpg"
   }
 }
