@@ -6,19 +6,37 @@ export default class Address extends Component {
       text: this.props.text,
       link: this.props.link,
       styleObj: {
-        cursor: 'pointer'
+        cursor: "pointer"
+      },
+      markStyle: {
+        display: 'inline-block',
+        width: '0px',
+        height: '0px',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
       }
     };
-    this.goToMap = this.goToMap.bind(this)
+    this.goToMap = this.goToMap.bind(this);
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    this.loadImage("map.png");
+  }
   componentWillUnmount() {}
   handleChange() {}
 
   goToMap() {
     window.location.href = this.state.link;
   }
+  loadImage = imageName => {
+    import(`../images/${imageName}`).then(image => {
+      this.setState({
+        markStyle: Object.assign({}, this.state.markStyle, {
+          backgroundImage: `url(${image.default})`
+        })
+      });
+    });
+  };
 
   render() {
     return (
@@ -26,7 +44,11 @@ export default class Address extends Component {
         className="img-wrap"
         onClick={this.goToMap}
         style={this.state.styleObj}
-      ><b>地址：</b>{this.state.text}</div>
+      >
+        <b>地址：</b>
+        <span className="text-link"> {this.state.text} </span>
+        <span style={this.state.markStyle} />
+      </div>
     );
   }
 }

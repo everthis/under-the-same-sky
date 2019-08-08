@@ -8,7 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <div className="ph"></div>
         <List data={listData} />
+        <div className="ph"></div>
       </div>
     );
   }

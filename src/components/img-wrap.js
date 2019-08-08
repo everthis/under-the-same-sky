@@ -21,7 +21,6 @@ export default class ImgWrap extends Component {
   componentWillUnmount() {}
   loadImage = imageName => {
     import(`../images/${imageName}`).then(image => {
-      console.log(image.default)
       this.setState({
         styleObj: Object.assign({}, this.state.styleObj, {
           backgroundImage: `url(${image.default})`

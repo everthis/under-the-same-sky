@@ -1,8 +1,8 @@
 {
-  "name": "date",
+  "name": "under-the-same-sky",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://everthis.github.io/date",
+  "homepage": "https://everthis.github.io/under-the-same-sky",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
