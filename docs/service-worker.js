@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/under-the-same-sky/precache-manifest.291c4107c48cc70564345245eae49c3d.js"
+  "/under-the-same-sky/precache-manifest.1945cf411d07925978f48098a3b5f635.js"
 );
 
 self.addEventListener('message', (event) => {

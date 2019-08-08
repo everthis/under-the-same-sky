@@ -1,19 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "176ae4cd4e837b80da1ee358c960b969",
+    "revision": "8f3f2fc303bae7e35fd0d41b4e153dbe",
     "url": "/under-the-same-sky/index.html"
   },
   {
-    "revision": "fc8154d8ec812d58cf29",
+    "revision": "01a3ab11695f61edd54c",
     "url": "/under-the-same-sky/static/css/main.74f9372f.chunk.css"
   },
   {
-    "revision": "8d2f8c448bfaab4b9c1f",
-    "url": "/under-the-same-sky/static/js/10.fcd20552.chunk.js"
+    "revision": "7e0a991e5874a2585d05",
+    "url": "/under-the-same-sky/static/js/10.7df24a0b.chunk.js"
   },
   {
-    "revision": "91bf2be4e0a7652a0990",
-    "url": "/under-the-same-sky/static/js/11.232acdde.chunk.js"
+    "revision": "54270c0af3dc1b43f25b",
+    "url": "/under-the-same-sky/static/js/11.8d17f5f7.chunk.js"
+  },
+  {
+    "revision": "b83231e4f708262af762",
+    "url": "/under-the-same-sky/static/js/12.35830277.chunk.js"
   },
   {
     "revision": "1d87092cd316e5278ccf",
@@ -28,32 +32,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/under-the-same-sky/static/js/4.f7d34559.chunk.js"
   },
   {
-    "revision": "accc32c4fe75101ee276",
-    "url": "/under-the-same-sky/static/js/5.96cd673e.chunk.js"
+    "revision": "cbce11c8fd1f7c0feb22",
+    "url": "/under-the-same-sky/static/js/5.43705322.chunk.js"
   },
   {
-    "revision": "eba73544a71c8fa395b5",
-    "url": "/under-the-same-sky/static/js/6.09160799.chunk.js"
+    "revision": "54712987963542a7f2a7",
+    "url": "/under-the-same-sky/static/js/6.75bdd4e0.chunk.js"
   },
   {
-    "revision": "9d86961e9a748a218b31",
-    "url": "/under-the-same-sky/static/js/7.1641fa38.chunk.js"
+    "revision": "3d78ccc21c133c430eb5",
+    "url": "/under-the-same-sky/static/js/7.a7cb0113.chunk.js"
   },
   {
-    "revision": "02a8af487fd70f77f6e3",
-    "url": "/under-the-same-sky/static/js/8.193077cc.chunk.js"
+    "revision": "9fa4f7cecd530921d951",
+    "url": "/under-the-same-sky/static/js/8.0854e686.chunk.js"
   },
   {
-    "revision": "790d2810affe7da97349",
-    "url": "/under-the-same-sky/static/js/9.ffe632d2.chunk.js"
+    "revision": "ca3f8f05c7b628521fa6",
+    "url": "/under-the-same-sky/static/js/9.2891bb45.chunk.js"
   },
   {
-    "revision": "fc8154d8ec812d58cf29",
-    "url": "/under-the-same-sky/static/js/main.d1831346.chunk.js"
+    "revision": "01a3ab11695f61edd54c",
+    "url": "/under-the-same-sky/static/js/main.fe92c9d7.chunk.js"
   },
   {
-    "revision": "bad21335211eac9bcf76",
-    "url": "/under-the-same-sky/static/js/runtime~main.5ab164cc.js"
+    "revision": "150efc2069a963320fda",
+    "url": "/under-the-same-sky/static/js/runtime~main.1572bb29.js"
   },
   {
     "revision": "f553b723944bfffa187099129e34eb68",
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4ab3339d39f4881aa0434255c205987",
     "url": "/under-the-same-sky/static/media/ls.f4ab3339.JPG"
+  },
+  {
+    "revision": "211a2a6a9f87890d5ef1137e2659a9ef",
+    "url": "/under-the-same-sky/static/media/lsrj.211a2a6a.JPG"
   },
   {
     "revision": "cf43efd35b60cac3c91c9f794487ab6d",
