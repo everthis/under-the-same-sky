@@ -34,6 +34,16 @@ body {
 .ph {
   height: 40px;
 }
+.cover {
+  position: relative;
+}
+.cover-name {
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
 .text-link {
   text-decoration: underline;
 }

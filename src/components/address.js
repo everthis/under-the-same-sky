@@ -5,6 +5,7 @@ export default class Address extends Component {
     this.state = {
       text: this.props.text,
       link: this.props.link,
+      label: this.props.label,
       styleObj: {
         cursor: "pointer"
       },
@@ -40,15 +41,15 @@ export default class Address extends Component {
 
   render() {
     return (
-      <div
-        className="img-wrap"
+      <p
+        className=""
         onClick={this.goToMap}
         style={this.state.styleObj}
       >
-        <b>地址：</b>
+        <b>{this.state.label || '地址'}：</b>
         <span className="text-link"> {this.state.text} </span>
         <span style={this.state.markStyle} />
-      </div>
+      </p>
     );
   }
 }

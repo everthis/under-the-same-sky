@@ -4,6 +4,7 @@ export default class ImgWrap extends Component {
     super(props);
     this.state = {
       src: this.props.src,
+      name: this.props.name,
       ratio: this.props.ratio,
       styleObj: {
         width: "100%",
@@ -16,7 +17,7 @@ export default class ImgWrap extends Component {
   }
 
   componentDidMount() {
-    this.loadImage(this.props.src);
+    if(this.props.src) this.loadImage(this.props.src);
   }
   componentWillUnmount() {}
   loadImage = imageName => {
@@ -30,6 +31,8 @@ export default class ImgWrap extends Component {
   };
 
   render() {
-    return <div className="img-wrap" style={this.state.styleObj} />;
+    return <div className="img-wrap cover" style={this.state.styleObj}>
+      {this.state.src ? '' : <span className="cover-name">{this.state.name}</span>}
+    </div>;
   }
 }
