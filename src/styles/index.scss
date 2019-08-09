@@ -64,3 +64,9 @@ body {
   text-decoration: underline;
   line-height: 1.4;
 }
+@media (min-width: 400px) and (max-width: 420px) {
+  .list-item {
+    width: 400px;
+    margin: 0 20px 50px;
+  }
+}
