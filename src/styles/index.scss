@@ -17,18 +17,26 @@ body {
   margin-bottom: 50px;
 }
 .list {
-  width: 95%;
-  max-width: 365px;
+  width: 90%;
   margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .c-center {
   text-align: center;
 }
 .list-item {
+  flex: 1;
   background-color: #fff;
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5);
+  text-align: left;
+  min-width: 310px;
+  max-width: 375px;
+  margin: 0 50px 50px;
 }
 .card-bottom {
   padding: 20px;
