@@ -1,1 +1,0 @@
-{"version":3,"sources":["images/ls.JPG"],"names":["module","exports","__webpack_require__","p"],"mappings":"4EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/4.f7d34559.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/ls.f4ab3339.JPG\";"],"sourceRoot":""}
